@@ -8,9 +8,11 @@
 
 https://albertsun6.github.io/huahua-promo/
 
+页面文件在 `main` 分支根目录。GitHub Pages 的发布来源使用该分支的根目录 `/`（与仓库里其他已发布站点相同：Deploy from a branch，分支 `main`，目录 `/`）。
+
 ## 本地预览
 
-在仓库根目录启动任意静态文件服务，然后打开 `index.html`。例如：
+在仓库根目录启动任意静态文件服务，然后打开首页。例如：
 
 ```bash
 python3 -m http.server 8080
