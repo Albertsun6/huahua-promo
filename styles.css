@@ -376,15 +376,12 @@ h3 {
     order: -1;
   }
 
-  .point-list,
-  .point-list li,
-  .point-list li:nth-child(4),
-  .point-list li:nth-child(5) {
-    grid-column: auto;
-  }
-
   .point-list {
     grid-template-columns: 1fr;
+  }
+
+  .point-list li:nth-child(n) {
+    grid-column: auto;
   }
 }
 
